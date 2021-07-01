@@ -1,3 +1,2 @@
 # Web-Development
-Static websites developed using HTML, CSS.
-JavaScript Projects
+Static websites and projects developed using HTML, CSS ans JavaScript. 
