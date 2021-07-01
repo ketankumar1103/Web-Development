@@ -1,0 +1,243 @@
+h1 {
+
+    font-size: 48px;
+    margin: 0; 0 16px 0;
+
+}
+
+h2 {
+
+font-weight: 300;
+font-size: 24px;
+margin: 0 0 16px 0;
+
+}
+
+.container {
+
+    
+    background: #468486;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    min-width: 900px;
+    text-align: center;
+
+}
+
+.btn {
+
+    display: inline-block;
+    color: white; 
+    font-weight: 500;
+    font-size: 20px;
+    background: #549da0;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 16px;
+    cursor: pointer;
+
+}
+.btn:hover {
+
+    background: #468486                   ;
+
+}
+
+/*.container1 {
+
+}*/
+
+.feature {
+
+    width: 32%;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+div img {
+
+    width: 40%;
+
+}
+
+.container2 {
+
+    background: #468486;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    min-width: 900px;
+    text-align: center;
+
+}
+
+blockquote {
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+blockquote p {
+
+margin: 0 0 5px 0;
+font-size: 24px;
+
+}
+
+blockquote cite {
+
+    font-size: 16px;
+    font-style: italic;
+
+}
+
+blockquote cite::before {
+
+    content: '-';
+    margin-right: 5px;
+
+}
+
+footer {
+
+    background: #353535;
+    margin-top: 20px;
+    text-align: center;
+    color: #868686;
+    font-size: 12px;
+
+}
+
+footer ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+footer li {
+
+    display: inline-block;
+
+}
+
+footer li a {
+
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c3c3c3;
+
+}
+
+footer a:hover {
+
+    color:white;
+
+}
+
+/*@media screen and (max-width:600px) {
+
+    body {
+
+        background-color: blue;
+
+    }
+
+}*/
+
+@media screen and (max-width: 480px) {
+
+    .btn {
+
+        display: block;
+        font-size: 18px;
+        width: 100%;
+
+    }
+
+    h1 {
+
+        font-size: 32px;
+        margin: 0 0 8px 0;
+
+    }
+
+    h2 {
+
+        font-size: 18px;
+
+    }
+
+    section {
+
+        padding: 25px 0 15px 0;
+
+    }
+    
+    .feature {
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin: 0 0 10 0;
+        font-size: 16px;
+
+    }
+
+    .feature img {
+
+        width: 15%;
+        min-width: 60px;
+        margin-right: 20px;
+
+    }
+
+    .container1 {
+
+        display: flex;
+        align-items: stretch;
+
+    }
+    .container1 div {
+
+        flex: 1;
+
+    }
+
+    .quote {
+
+        padding: 30px 0;    
+
+    }
+
+    blockquote p {
+
+        font-size: 18px;
+
+    }
+
+    blockquote cite {
+
+        font-size: 14px;
+
+    }
+
+    footer {
+
+        padding: 30px 0 10px 0;
+
+    }
+    footer li {
+
+        display: block;
+        margin: 5px 0;
+
+    }
+
+}

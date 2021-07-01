@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Ketan Fitness Club</title>
+   <style>
+
+    header {
+        background-color: black;
+    }   
+
+    body {
+
+        background: url('img/bgimg.jpg');
+        margin: 0;
+        padding: 0;
+        color: white;
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 50px;
+        top: 40px;
+        text-align: center;
+    }
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 40px auto;
+        
+    }
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 50px;;
+    }
+    .left img {
+
+        width: 100px;
+        filter: invert(100%);
+
+    }
+    .left p {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 45px;
+    }
+    .navbar {
+        display: inline-block;
+
+    }
+    .navbar li {
+        display: inline-block;
+    }
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 12px;
+        cursor: default;
+    }
+    .navbar li a:hover {
+        color: gray;
+        text-decoration: underline;
+    }
+    .navbar li a:active {
+        text-decoration: underline;
+    }
+    .btn {
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: gray;
+    }
+    .container {
+        border: 2px solid white;
+        margin: 80px 60px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 2px;
+        margin: 11px auto;
+        border: 2px solid black;
+        font-size: 18px;;
+        border-radius: 6px;
+    }
+    .container button {
+        display: block;
+        width: 91%;
+        margin: auto;
+        border: 2px solid lightblue;
+        border-radius: 6px;
+        font-size: 18px;
+    }
+
+   </style>
+</head>
+
+<body class="">
+
+    <header class="header">
+ 
+        <!-- left div for logo -->
+        <div class="left">
+            <img src="img/logos.png" alt="">
+            <p>Ketan Fitness Club</p>
+        </div>
+        <!-- middle div for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Diet Plans</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right div for buttons -->
+        <div class="right">
+            <button class="btn"><a href="#"></a>Call Us</button>
+            <button class="btn"><a href="#"></a>Email Us</button>
+        </div>
+
+    </header>
+
+    <section class="membership form">
+
+        <div class="container">
+            <h1>Join the best Gym in India</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Mobile No.">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+        </div>
+
+    </section>
+
+</body>
+</html>

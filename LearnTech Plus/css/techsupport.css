@@ -1,0 +1,69 @@
+/* Start Tech Support Page */
+
+#computer {
+
+    position: absolute;
+    top: 280px;
+    left: 150px;
+
+}
+
+.text {
+
+    position: absolute;
+    top: 230px;
+    left: 600px;
+
+}
+
+#computer2 {
+
+    position: absolute;
+    top: 630px;
+    left: 150px;
+
+}
+
+.text2  {
+
+    position: absolute;
+    top: 580px;
+    left: 600px;
+
+}
+
+#computer3 {
+
+    position: absolute;
+    top: 980px;
+    left: 150px;
+
+}
+
+.text3 {
+
+    position: absolute;
+    top: 930px;
+    left: 600px;
+
+}
+
+footer#techsupport {
+
+    width: 100%;
+    height: 80px;
+    background: #172035;
+    position: absolute;
+    top: 1350px;
+    left: 0;
+
+}
+
+#footer {
+
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+    font-size: 1em;
+
+}

@@ -1,0 +1,212 @@
+/* Start Slideshow Properties*/
+
+section#content {
+    
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+
+}
+
+img#slide {
+
+    width: 100%;
+    height: auto;
+
+}
+
+/* End Slideshow Properties */
+
+/* Start Featured Courses Properties */
+
+div.course {
+
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 950px;
+    left: 50px;
+
+}
+
+div.course2 {
+
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 950px;
+    left: 500px
+
+}
+
+div.course3 {
+
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 950px;
+    left: 950px;
+
+}
+
+h6 {
+
+    font-size: 1em;
+
+}
+
+/* End Featured Courses Properties */
+
+/* Start About Section Properties */
+
+section#about {
+
+    width: 100%;
+    height: 500px;
+    background: #252525;
+    position: absolute;
+    top: 1550px;
+    left: 0;
+
+}
+
+div.about {
+
+    color: white;
+    text-align: center;
+
+}
+
+div.students {
+
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 50px;
+
+}
+
+div.reviews {
+
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 400px;
+
+}
+
+div.courses {
+
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 750px;
+
+}
+
+div.content {
+
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 1100px;
+
+}
+
+/* End About Section Properties */
+
+/* Start Learn Tech Section Properties */
+
+
+div.learntechnow {
+
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 2300px;
+    left: 50px;
+
+}
+
+div.learntechpodcast {
+
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 2300px;
+    left: 500px;
+
+}
+
+div.learntechblog {
+    
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 2300px;
+    left: 950px;
+
+}
+
+.h1lt {
+
+    position: absolute;
+    top: 2100px;
+    left: 500px;
+}
+
+/* End Learn Tech Section */
+
+/* Start Footer Section */
+
+footer {
+
+    width: 100%;
+    height: 80px;
+    background: #172035;
+    position: absolute;
+    top: 2900px;
+    left: 0;
+
+}
+
+#footer {
+
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+    font-size: 1em;
+     
+}
+
+/* End Footer Section */
+
