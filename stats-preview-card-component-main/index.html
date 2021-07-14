@@ -36,7 +36,6 @@
       height: 24rem;
       color: white;
       padding: 4rem 4rem;
-      /* border: 2px solid white; */
       background-color: hsl(244, 38%, 16%);
       border-top-left-radius: 1rem;
       border-bottom-left-radius: 1rem;
@@ -65,10 +64,7 @@
 
     .stats {
       display: flex;
-      /* flex-wrap: wrap; */
-      /* justify-content: space-around; */
       left: 2rem;
-      /* padding: px; */
       font-family: 'Lexend Deca', sans-serif;
       margin-top: 3.5rem;
 
@@ -88,12 +84,8 @@
     }
 
     .rightdiv {
-      /* background-image: url(images/image-header-desktop.jpg); */
-      /* background-position: center; */
-      /* background-size: 100% 100%; */
       width: 28rem;
       height: 24rem;
-      /* border: 2px solid white; */
       border-top-right-radius: 1rem;
       border-bottom-right-radius: 1rem;
       position: relative;
@@ -102,7 +94,6 @@
     .img {
       width: 28rem;
       height: 24rem;
-      /* border: 2px solid white; */
       border-top-right-radius: 1rem;
       border-bottom-right-radius: 1rem;
       position: relative;
@@ -125,8 +116,11 @@
       font-size: 11px;
       text-align: center;
       margin-top: 5px;
-      position: relative;
-      left: 0;
+      position: absolute;
+      left: 50%;
+      bottom: 2%;
+      transform: translateX(-50%);
+      color: #fff;
     }
 
     .attribution a {
@@ -135,6 +129,7 @@
 
     @media (max-width: 345px) {
       .main {
+        padding: 2rem 4rem;
         width: 100%;
         height: 100%;
         background-color: hsl(233, 47%, 7%);
@@ -153,7 +148,6 @@
         height: auto;
         color: white;
         padding: 2rem 2rem;
-        /* border: 2px solid white; */
         background-color: hsl(244, 38%, 16%);
         border-bottom-right-radius: 1rem;
         border-bottom-left-radius: 1rem;
@@ -162,8 +156,8 @@
       }
 
       .leftdiv h3 {
-       font-size: 23px;
-       padding: 2px 2px;
+        font-size: 23px;
+        padding: 2px 2px;
       }
 
       .stats {
@@ -173,46 +167,42 @@
         margin: 10px;
         padding: 15px;
         text-align: center;
-        /* border: 2px solid white;  */
       }
 
       .stats .elements {
         margin: 10px;
-        /* border: 2px solid white; */
       }
 
       .rightdiv {
-      /* background-image: url(images/image-header-desktop.jpg); */
-      /* background-position: center; */
-      /* background-size: 100% 100%; */
-      width: 20rem;
-      height: 10rem;
-      /* border: 2px solid white; */
-      border-top-right-radius: 1rem;
-      position: relative;
-    }
+        width: 20rem;
+        height: 10rem;
+        border-top-right-radius: 1rem;
+        position: relative;
+      }
 
-    .img {
-      width: 20rem;
-      height: 10rem;
-      /* border: 2px solid white; */
-      border-top-right-radius: 1rem;
-      border-top-left-radius: 1rem;
-      border-bottom-right-radius: 0;
-      position: relative;
-    }
+      .img {
+        width: 20rem;
+        height: 10rem;
+        border-radius: unset;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+        position: relative;
+      }
 
-    .rightdiv::before {
-      content: "";
-      position: absolute;
-      /* z-index: 1; */
-      width: 20rem;
-      height: 10rem;
-      border-top-right-radius: 1rem;
-      border-bottom-right-radius: 1rem;
-      background-color: hsla(277, 78%, 52%, 0.7);
-    }
+      .rightdiv::before {
+        content: "";
+        position: absolute;
+        width: 20rem;
+        height: 10rem;
+        border-radius: unset;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+        background-color: hsla(277, 78%, 52%, 0.7);
+      }
 
+      .attribution {
+        display: none;
+      }
 
     }
   </style>
